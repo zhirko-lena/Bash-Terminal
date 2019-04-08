@@ -7,8 +7,13 @@ Menu(){
 }
 
 Install(){
-  read -p "Enter packet name => " packetName
-  yum install $packetName
+  read -p "Enter packet name => " packetName1
+  yum install $packetName1
+}
+
+Search(){
+  read -p "Enter packet name => " packetName2
+  yum search $packetName2
 }
 
 exit=true
